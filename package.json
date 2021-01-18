@@ -1,0 +1,14 @@
+{
+  "name": "inertia-datalayer",
+  "version": "0.0.1",
+  "main": "src/dataLayer.js",
+  "license": "MIT",
+  "keywords": [
+    "datalayer",
+    "data layer",
+    "vue data layer",
+    "vue js data layer"
+  ],
+  "dependencies": {
+  }
+}
