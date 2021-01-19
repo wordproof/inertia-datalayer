@@ -10,5 +10,7 @@
     "vue js data layer"
   ],
   "dependencies": {
+    "@inertiajs/inertia": "^0.3.0",
+    "@inertiajs/inertia-vue": "^0.2.0"
   }
 }
