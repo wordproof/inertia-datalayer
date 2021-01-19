@@ -6,8 +6,8 @@
   "keywords": [
     "datalayer",
     "data layer",
-    "vue data layer",
-    "vue js data layer"
+    "inertia data layer",
+    "inertia js data layer"
   ],
   "dependencies": {
     "@inertiajs/inertia": "^0.3.0",
