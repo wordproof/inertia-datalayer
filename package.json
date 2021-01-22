@@ -1,8 +1,16 @@
 {
   "name": "inertia-datalayer",
   "version": "1.0.0",
-  "main": "src/dataLayer.js",
+  "source": "src/index.js",
+  "main": "dist/index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:umd",
+    "build:cjs": "microbundle --format cjs",
+    "build:umd": "microbundle --format umd --name Inertia --external none",
+    "prepublishOnly": "npm run build",
+    "watch": "microbundle watch --format cjs"
+  },
   "keywords": [
     "datalayer",
     "data layer",
@@ -12,5 +20,10 @@
   "dependencies": {
     "@inertiajs/inertia": "^0.3.0",
     "@inertiajs/inertia-vue": "^0.2.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "microbundle": "^0.12.0"
   }
 }
